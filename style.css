@@ -10,7 +10,7 @@ a{
 .heaher{
     width: 100%;
     height: 50px;
-    padding: 10px 150px;
+    padding: 10px 120px;
     position: fixed;
     top: 0;
     left: 0;
@@ -79,12 +79,12 @@ header{
 
 .container{
    max-width: 100%;
-    height: 100vh;
+    height: 1100px;
     background-color: rgb(215, 219, 223);
-    padding: 0 150px;
+    padding: 0 120px;
 }
 .subContainer{
-    height: 100vh;
+    height: auto;
     width: 100%;
    
 
@@ -97,7 +97,7 @@ header{
 }
 .main{
     width: 100%;
-    height: 100vh;
+    height: auto;
     
     display: flex;
     justify-content: space-between;
@@ -204,11 +204,228 @@ header{
     flex: 2;
     width: 100%;
     height: 100vh;
-    background-color: black;
+   
 }
+.post{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.post1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.post1 img{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.post1 input{
+    width: 100%;
+    border-radius: 30px;
+    padding: 0 20px;
+    
+}
+.post2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.postItem span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.postItem h4{
+    font-family: 16px;
+}
+.red{
+    color: rgb(224, 133, 133);
+}
+.blue{
+    color: rgb(158, 158, 207);
+}
+.green{
+    color: rgb(117, 199, 117);
+}
+.yello{
+    color: rgb(245, 245, 121);
+}
+.postItem{
+    display: flex;
+}
+
+.feedPost{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+    background-color: white;
+}
+.postHead{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.postUserimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.postUserimage img{
+    width: 50px;
+    width: 50px;
+    margin-right: 10px;
+
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    
+}
+.postUserimage h5{
+    font-size: 16px;
+}
+ small{
+     font-size: 10px;
+ }
+  .dot{
+    font-size: 6px;
+ }
+ .public{
+     font-size: 12px;
+ }
+
+ .menuicon span{
+     text-align: center;
+     width: 30px;
+     height: 30px;
+     /* align-items: center; */
+     background-color: rgba(173, 194, 194, 0.24);
+     border-radius: 50%;
+ }
+ .postDis{
+     padding: 0 20px;
+ }
+ .postDis p{
+     font-size: 14px;
+ }
+ .postImg img{
+     width: 100%;
+     height: 300px;
+ }
+ .postlikeCount{
+     padding: 5px 20px;
+ }
+ .postlikeCount .l{
+     font-size: 14px;
+     /* width: 20px;
+     height: 20px; */
+
+     text-align: center;
+    
+
+ }
+ 
+ .like{
+    background-color: rgb(69, 112, 253);
+    border-radius: 50%;
+    color: rgb(194, 194, 199);
+
+ }
+ .love{
+    background-color: rgb(255, 79, 79);
+    border-radius: 50%;
+    color: rgb(239, 239, 245);
+
+     
+ }
+ .postBurtton{
+     padding: 5px 20px;
+     width: 80%;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     /* justify-content: space-between; */
+ }
+ .postBurtton div {
+     
+     
+     width: 120px;
+     
+     
+ }
+ /* .k a{
+    width: 100%;
+    height: 100%;
+ } */
+ .postBurtton span{
+     font-size: 14px;
+     
+ }
+ .k :hover{
+     background-color: aliceblue;
+ }
+ .postBurtton span{
+
+ }
+
+
+
+
+
+
+/* right side  */
 .right{
     flex: 1;
-    height: 500px;
+    height: auto;
     width: 100%;
+    padding: 0 10px;
+    
+    
+    
+}
+.news{
+    padding: 10px;
+    /* height: 600px; */
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.newHead{
+    display: flex;
+    justify-content: space-between;
+}
+.newHead h2{
+    font-size: 16px;
+
+}
+
+.list{
+    display: flex;
+    margin-top: 10px;
+   
+}
+.point span{
+    font-size: 14px;
+   color: rgb(114, 110, 110);
+}
+.history{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.info a{
+    font-size: 14px;
+}
+.history p , .history span{
+    font-size: 10px;
+    margin-right: 5px;
     
 }
