@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family:  Roboto,Arial, Helvetica , sans-serif;
 }
+body{
+    background-color: whitesmoke;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -13,6 +16,7 @@ a{
     height: 60px;
     padding: 10px 120px;
     position: sticky;
+    top:0;
    /* width: 100%; */
     z-index: 3;
     background-color: white;
@@ -96,21 +100,13 @@ header{
  }
 
 .container{
-   /* max-width: 1200px; */
+
    width: 100%;
+   height: 100%;
  
     background-color: whitesmoke;
     padding: 0 100px;
-    height: 1950px;
-}
-.subContainer{
-
-    width: 100%;
    
-   
-   
-
-
 }
 
 .main{
@@ -618,6 +614,19 @@ header{
     text-align: center;
 }
 .ads{
+    width: 100%;
+    height: 500px;
+    background-color: #0a66c2;
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    
+    top: 10;
+
+}
+.ads{
     border: 1px solid #999;
     height: 250px;
     border-radius: 10px;
@@ -663,5 +672,267 @@ header{
     color: #0a66c2;
     margin-right: 10px;
 
+
+}
+
+@media only screen and (max-width: 600px) {
+.heaher{
+    height: 60px;
+    padding: 0 10px;
+    align-items: center;
+    
+    border: 0;
+    
+
+}
+
+
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.serch{
+   display: none;
+
+}
+
+.rightSide{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+}
+.menuItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: lighter;
+}
+
+ .headoption a span{
+    width: 80px;
+    height: auto;
+    font-size: 20px;
+    color: rgb(70, 64, 64);
+    
+ }
+ .headoption a span:hover{
+    color: #999;
+ }
+ .headoption:hover{
+    color: #999;
+ }
+ .headoption a h3{
+     font-size: 12px;
+     font-weight: 400;
+ }
+
+.container{
+
+ 
+    background-color: whitesmoke;
+    padding: 0;
+    height: 1950px;
+}
+
+.main{
+
+    flex-direction: column;
+  
+}
+
+.left{
+
+    padding: 0;
+    
+
+}
+.profil{
+    display: flex;
+    flex-direction: column;
+    border-radius:0;
+
+    border: 1px solid #999;
+    
+}
+.user{
+    width: 100%;
+    height: 120px;
+    align-items: center;
+  
+    
+}
+.coverImg img{
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+    height: 70px;
+   
+    
+}
+
+.proPic img{
+    width: 80px;
+    height: 80px;
+ 
+    border: 2px solid white;
+   
+    
+    
+    border-radius: 50%;
+   
+    
+}
+.details{
+    text-align: center;
+    color: black;
+   
+}
+ h3{
+    font-size: medium;
+}
+.details p{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.connection{
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    display: none;
+  
+}
+/* .connection , .myItem{
+    display: none;
+}
+.connection h3 , .myItem span, .myItem h3{
+    display: none;
+    
+} */
+
+ .myItem{
+    display: none;
+
+}
+
+.side_bottom{
+    display: none;
+}
+
+.feed{
+    margin: 10px 0; 
+}
+.post{
+ 
+    border: 0;
+    border-bottom: 0.1px solid #999;
+    border-top: 0.1px solid #999;
+    border-radius: 0;
+
+}
+.postItem span{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.postItem h4{
+    font-family: 14px;
+}
+
+
+
+.line p{
+    font-size: 12px;
+    width: 100px;
+
+}
+
+
+.feedPost{
+    margin-top: 20px;
+    border-radius: 0;
+    border: 0;
+    border-top: 1px solid #999;
+    border-bottom-left-radius: 1px solid #999;
+
+}
+
+ .postBurtton{
+     border-bottom: 1px solid #999;
+    
+ }
+
+.right{
+    flex: 1;
+    height: auto;
+    width: 100%;
+    padding: 0 ;
+    
+}
+.news{
+    
+
+    border-radius: 0;
+    border: 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+.ads{
+    width: 100%;
+    height: 500px;
+    
+    position: static;
+    
+    
+ 
+
+}
+.ads{
+    border: 0;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    height: 300px;
+    border-radius: 0;
+    padding: 0 70px ;
+    
+}
+.ads img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    padding: 30px;
+    font-size: 10px;
+    justify-content: center;
+
+}
+.footer a{
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.last{
+    justify-content: center;
+ 
+    
+}
+.last svg{
+    color: #0a66c2;
+    margin-right: 10px;
+
+
+}
 
 }
