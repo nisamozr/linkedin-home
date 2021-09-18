@@ -674,8 +674,129 @@ header{
 
 
 }
+.ss{
+    display: none;
+}
 
-@media only screen and (max-width: 600px) {
+
+
+
+@media only screen and (max-width: 1055px) {
+    .serch{
+        display: none;
+     
+     }
+     .ss{
+         display: inline;
+     }
+   
+    .heaher{
+        height: 60px;
+        padding: 10px 80px;
+        position: sticky;
+        top:0;
+       /* width: 100%; */
+        z-index: 3;
+        background-color: white;
+        border: .1px solid lightgray;
+        
+    
+    }
+    header{
+        /* margin: 10px 80px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+        flex: 2;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+   
+    .serch span{
+        position: absolute;
+        margin-left: 10px;
+        
+       
+    }
+    .serch input{
+        position: absolute;
+        width: 200px;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+        padding-left: 40px;
+        background-color: rgb(243, 236, 236);
+        transition: width 350ms;
+        
+    }
+    .serch input:focus{
+        width: 300px;
+    }
+    .rightSide{
+        display: flex;
+        flex: 2;
+        justify-content: space-between;
+    }
+    .menuItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 8px;
+        font-weight: lighter;
+    }
+    
+     .headoption a span{
+        width: 80px;
+        height: auto;
+        font-size: 20px;
+        color: rgb(70, 64, 64);
+        
+     }
+     .headoption a span:hover{
+        color: #999;
+     }
+     .headoption:hover{
+        color: #999;
+     }
+     .headoption a h3{
+         font-size: 14px;
+         font-weight: 400;
+     }
+    
+    .container{
+
+        padding: 0 30px;
+       
+    }
+    
+    .main{
+        max-width: 1200px;
+        height: auto;
+        padding-top: 30px;
+        
+        display: flex;
+        /* justify-content: space-between; */
+    }
+   
+    
+    /* leftside */
+    .right{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
 .heaher{
     height: 60px;
     padding: 0 10px;
@@ -686,7 +807,10 @@ header{
 
 }
 
-
+.ss h3{
+    display: none;
+    font-weight: lighter;
+}
 
 .logo img{
     height: 30px;
@@ -931,6 +1055,9 @@ header{
     margin-right: 10px;
 
 
+}
+.right{
+    display: inline;
 }
 
 }
